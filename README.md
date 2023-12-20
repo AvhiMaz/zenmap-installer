@@ -4,6 +4,13 @@
 
 This script automates the installation of Nmap dependencies and Zenmap on Debian-based systems.
 
+
+## Compatibility
+
+The script has been tested and confirmed to work on:
+
+- Debian-based distributions (Debian, Ubuntu, etc.)
+
 ## Prerequisites
 
 - This script is intended for Debian-based systems.
