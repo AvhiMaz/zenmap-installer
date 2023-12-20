@@ -20,7 +20,7 @@ fi
 
 git clone https://github.com/nmap/nmap.git && cd nmap && ./configure && make && sudo make install
 
-echo -e "${green}Installation Completed Successfully{nc}"
+echo -e "${green}Installation Completed Successfully{$nc}"
 
 
 echo -e "${yellow}cd nmap${nc}"
