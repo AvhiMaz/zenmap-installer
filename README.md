@@ -1,5 +1,7 @@
 # Zenmap Installer Script
 
+![Zenmap Logo](image.png)
+
 This script automates the installation of Nmap dependencies and Zenmap on Debian-based systems.
 
 ## Prerequisites
