@@ -2,6 +2,7 @@
 
 red='\033[0;31m'
 green='\033[0;32m'
+yellow='\033[0;33m'
 nc='\033[0m'
 
 if [ $UID != 0 ]; then
@@ -25,4 +26,4 @@ echo -e "${green}Installation Completed Successfully{nc}"
 echo -e "${yellow}cd nmap${nc}"
 echo -e "${yellow}cd zenmap${nc}"
 
-echo -e "${red}now run ./zenmap and ENJOY!!${nc}"
+echo -e "${red}now run sudo ./zenmap and ENJOY!!${nc}"
