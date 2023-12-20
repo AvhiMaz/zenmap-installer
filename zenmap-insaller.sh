@@ -1,14 +1,15 @@
 #!/bin/bash
 
-if[[$UID != 1000]]
+if [ $UID != 0 ];
 then
     echo "Error: This script must be run as root"
     exit 1
 fi
-apt-get update && sudo apt-get upgrade
-apt-get install libssl-dev
 
-if[[$? != 0]]
+apt-get update && sudo apt-get upgrade
+apt-get install -y libssl-dev
+
+if [ $? != 0 ];
 then
     echo "Error: libssl-dev not installed"
     exit 1
