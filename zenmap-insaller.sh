@@ -1,4 +1,6 @@
 #!/bin/bash
+#Description: This script installs dependencies for Nmap and runs Zenmap.
+
 
 red='\033[0;31m'
 green='\033[0;32m'
